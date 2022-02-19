@@ -1,0 +1,20 @@
+{
+	"name": "visitor-count",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.26.0",
+		"badge-maker": "^3.3.1",
+		"node-forge": "^1.2.1",
+		"typescript": "^4.5.5"
+	},
+	"devDependencies": {
+		"@types/node-forge": "^1.0.0",
+		"@vercel/node": "^1.13.0"
+	}
+}
