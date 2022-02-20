@@ -28,8 +28,6 @@ If you want to use in webpage (such as blog, etc.), you should transform the url
 
 Like this:
 
-> myblog.com/article/1  => `?id=myblog.com\article\1`
->
 > myblog.com/article/1  => `?id=myblog.com.article.1`
 >
 > myblog.com/article/1  => `?id=myblog.com-article-1`

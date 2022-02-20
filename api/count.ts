@@ -4,7 +4,7 @@ import axios from "axios";
 import forge from 'node-forge';
 
 export default async (req: VercelRequest, res: VercelResponse) => {
-	const { id, label = 'Visotors', labelColor = '#555', color = '#4C1' } = req.query
+	const { id, label = 'Visitors', labelColor = '#555', color = '#4C1' } = req.query
 
 	// Check query params
 
