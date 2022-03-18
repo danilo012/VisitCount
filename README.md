@@ -54,6 +54,14 @@ Or any transform rules you like but you should **make sure different articles us
 
 You can use hex value or color name.
 
+## Badge Style
+
+![Visitors]((https://visit-count.vercel.app/api/count?id=YourId&style=for-the-badge))
+
+```md
+![Visitors]((https://visit-count.vercel.app/api/count?id=YourId&style=for-the-badge))
+```
+
 # Deploy
 
 I'm using vercel serverless **free plan** to deploy this project on [https://visit-count.vercel.app/](https://visit-count.vercel.app/) that's the link you have seen above.
