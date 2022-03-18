@@ -56,10 +56,10 @@ You can use hex value or color name.
 
 ## Badge Style
 
-![Visitors]((https://visit-count.vercel.app/api/count?id=YourId&style=for-the-badge))
+![Visitors](https://visit-count.vercel.app/api/count?id=YourId&style=for-the-badge)
 
 ```md
-![Visitors]((https://visit-count.vercel.app/api/count?id=YourId&style=for-the-badge))
+![Visitors](https://visit-count.vercel.app/api/count?id=YourId&style=for-the-badge)
 ```
 
 # Deploy
