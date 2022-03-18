@@ -4,7 +4,7 @@ import axios from "axios";
 import forge from 'node-forge';
 
 export default async (req: VercelRequest, res: VercelResponse) => {
-	const { id, label = 'Visitors', labelColor = '#555', color = '#4C1' } = req.query
+	const { id, label = 'Visitors', labelColor = '#555', color = '#4C1', style = 'flat' } = req.query
 
 	// Check query params
 
@@ -30,6 +30,16 @@ export default async (req: VercelRequest, res: VercelResponse) => {
 
 	if (color instanceof Array) {
 		res.json({ error: 'The "color" field should be unique in query params' })
+		return
+	}
+
+	if (style instanceof Array) {
+		res.json({ error: 'The "style" field should be unique in query params' })
+		return
+	}
+
+	if (style != 'plastic' && style != 'flat' && style != 'flat-square' && style != 'for-the-badge' && style != 'social') {
+		res.json({ error: 'The "style" field shoule be plastic/flat/flat-square/for-the-badge/social' })
 		return
 	}
 
@@ -59,6 +69,7 @@ export default async (req: VercelRequest, res: VercelResponse) => {
 				message: `${cnt}`,
 				labelColor,
 				color,
+				style
 			})
 		)
 	} catch (e) {
