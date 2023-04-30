@@ -1,5 +1,9 @@
 # VisitCount
 
+> **Warning**
+>
+> The service this project depends [CountAPI](https://countapi.xyz/) is down. So it will not work again.
+
 ![Visitors](https://visit-count.vercel.app/api/count?id=KiritaniAyaka.VisitCount)
 
 A simple counter for readme page or webpage.
